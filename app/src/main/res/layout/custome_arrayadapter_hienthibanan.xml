@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtenbanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Bàn 1"
+        android:layout_gravity="center"
+        />
+  <ImageView
+      android:id="@+id/imgbanan"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginLeft="5dp"
+      android:src="@drawable/banan"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btngoimon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/goimon"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/btnthanhtoan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/thanhtoan"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/btnxoaban"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/xoabanan"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

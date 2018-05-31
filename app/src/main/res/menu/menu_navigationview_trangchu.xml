@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/menutrangchu"
+        android:title="Trang chủ"
+        android:icon="@drawable/trangchu"
+        android:checked="true"
+        >
+    </item>
+    <item
+        android:id="@+id/menubanan"
+        android:title="Bàn Ăn"
+        android:icon="@drawable/iconbanan"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuthucdon"
+        android:title="Thực đơn"
+        android:icon="@drawable/logodangnhap"
+        >
+    </item>
+    <item
+        android:id="@+id/menunhanvien"
+        android:title="Nhân viên"
+        android:icon="@drawable/nhanvien"
+        >
+    </item>
+    <item
+        android:id="@+id/menuthongke"
+        android:title="Thống kê"
+        android:icon="@drawable/thongke"
+        >
+    </item>
+    <item
+        android:id="@+id/menucaidat"
+        android:title="Cài đặt"
+        android:icon="@drawable/caidat"
+        >
+    </item>
+</group>
+
+
+</menu>

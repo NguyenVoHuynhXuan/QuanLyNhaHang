@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/hinh"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logodangnhap"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/lnchinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/imglogo"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/edttendangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên đăng nhập"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="#B364B5F6"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:id="@+id/edtmatkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:background="#B364B5F6"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            />
+        <RadioGroup
+            android:id="@+id/radgioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/radnam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:id="@+id/radnu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+        <EditText
+            android:id="@+id/edtngaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="#B364B5F6"
+            android:drawableLeft="@drawable/calendar"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:id="@+id/edtcmnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chứng minh nhân dân"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="#B364B5F6"
+            android:drawableLeft="@drawable/id"
+            android:drawablePadding="10dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btndongy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đồng Ý"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFC107"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lnchinh"
+        />
+</RelativeLayout>
